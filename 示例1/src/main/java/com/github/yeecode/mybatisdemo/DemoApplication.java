@@ -15,7 +15,7 @@ public class DemoApplication {
     public static void main(String[] args) throws Exception {
         String url = "jdbc:mysql://127.0.0.1:3306/yeecode?serverTimezone=UTC";
         String userName = "root";
-        String password = "yeecode";
+        String password = "root";
 
         User userParam = new User();
         userParam.setSchoolName("Sunny School");
